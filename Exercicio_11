@@ -1,0 +1,12 @@
+algoritmo "exer.11"
+var
+   t_f, t_c: real
+inicio
+      escreva ("Informe a temperatura: ")
+      leia (t_f)
+      
+      t_c <-(t_f - 32) / (9/5) // formula de f para c
+                               // c * (9/5) + 32
+      
+      escreva ("Temperatura em Fahrenheit: ", t_f, " Temperatura em Celsius: ", t_c:5:2)
+fimalgoritmo

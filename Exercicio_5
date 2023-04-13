@@ -1,0 +1,9 @@
+algoritmo "exer.5"
+var
+   n1, n2, n3, n4: caractere
+inicio
+      escreva ("Informe quatro nomes: ")
+      leia (n1, n2, n3, n4)
+      
+      escreva ("A ordem inversa dos nomes: ", n4," ",n3, " ",n2, " ", n1)
+fimalgoritmo

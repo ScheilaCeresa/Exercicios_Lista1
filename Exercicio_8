@@ -1,0 +1,14 @@
+algoritmo "exer.8"
+var
+   x1, x2, y1, y2, d: real
+inicio
+      escreva ("Informe a coordenada do primeiro ponto: ")
+      leia (x1, y1)
+      escreva ("Informe a coordenada do segundo ponto: ")
+      leia (x2, y2)
+      
+      d <- raizq(((x2 - x1)^2) + ((y2 - y1)^2))
+      
+      escreva ("A distancia entre os dois pontos: ", d)
+      
+fimalgoritmo

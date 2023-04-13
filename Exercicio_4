@@ -1,0 +1,11 @@
+algoritmo "exer.4"
+var
+   a, b, h: real
+inicio
+      escreva ("Informe os catetos: ")
+      leia (a, b)
+      
+     h <- raizq(a^2+b^2)
+      
+      escreval ("Valor do comprimento da hipotenusa: ", h:5:2)
+fimalgoritmo

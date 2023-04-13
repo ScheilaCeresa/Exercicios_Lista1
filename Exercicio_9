@@ -1,0 +1,14 @@
+algoritmo "exer.9"
+var
+   nome: caractere
+   n1, n2, n3, p1, p2, p3, mf: real
+inicio
+      escreva("Informe seu nome: ")
+      leia (nome)
+      escreva ("Informe suas tres notas respectivamente e seus pesos: ")
+      leia (n1, n2, n3, p1, p2, p3)
+      
+      mf <- ((n1*p1) + (n2*p2) + (n3*p3)) / (p1+p2+p3)
+
+      escreva ("A media final ponderada: ", mf, " do aluno: ", nome)
+fimalgoritmo

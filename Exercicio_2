@@ -1,0 +1,13 @@
+algoritmo "exer.2"
+
+var
+   volume, raio, altura: real
+inicio
+      escreva ("Informe o raio e a altura de uma lata de oleo: ")
+      leia (raio, altura)
+      
+      volume <- (pi* (raio^2) * altura)
+      
+      escreva ("O volume da lata de oleo é de: ", volume:5:2)
+
+fimalgoritmo

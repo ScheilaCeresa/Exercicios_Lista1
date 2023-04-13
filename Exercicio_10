@@ -1,0 +1,19 @@
+algoritmo "exer.10"
+var
+   sala_liq, sala_bruto, d_ps, d_va: real
+inicio
+      escreva ("Informe seu salario bruto: ")
+      leia (sala_bruto)
+      
+      d_ps <- sala_bruto * 0.10              // porcentagem 0.0
+      d_va <- (sala_bruto - d_ps )*0.30
+      sala_liq <- sala_bruto - d_ps - d_va
+      
+      escreval ("Salario Bruto: ", sala_bruto)
+      escreval ("Desconto da Previdencia Social: ", d_ps)
+      escreval ("Desconto do Vale Alimentação: ", d_va)
+      escreva  ("O salario Liquido eh de: ", sala_liq)
+
+       // (d_ps, d_va, sala_liq, sala_bruto)
+       
+fimalgoritmo

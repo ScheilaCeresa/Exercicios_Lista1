@@ -1,0 +1,27 @@
+algoritmo "exer.7"
+var
+   nome: caractere
+   hora_trab, dep, sala_trab, sala_fami, d_t, d_i, sala_bruto, sala_liqui: real
+inicio
+      escreva ("Informe seu nome: ")
+      leia (nome)
+      escreva ("Informe o numero de horas trabalhadas: ")
+      leia (hora_trab)
+      escreva ("Informe o numero de dependentes: ")
+      leia(dep)
+      
+      sala_trab <- hora_trab * 10
+      sala_fami <- dep * 60
+      
+      d_t <- (sala_trab / 91.5)
+      d_i <- (sala_trab - d_t)/ 95
+      
+      sala_bruto <- sala_trab + sala_fami
+      sala_liqui <- sala_bruto - d_i - d_t
+      
+      
+      escreval (" ",sala_trab, " ", sala_fami, " ", d_t:5:2, " ", d_i:5:2)
+      escreva ("Salario Bruto: ", sala_bruto, " e Salario Liquido: ", sala_liqui)
+      
+      
+fimalgoritmo

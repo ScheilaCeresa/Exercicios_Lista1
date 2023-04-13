@@ -1,0 +1,21 @@
+algoritmo "exer.6"
+var
+   hora_trab, valor_hora, sala_bruto, salario, dependente: real
+
+inicio
+      escreva ("Informe a quantidade de horas trabalhadas: ")
+      leia (hora_trab)
+      escreva ("Informe o valor da hora: ")
+      leia (valor_hora)
+      escreva ("Informe a quantidade de dependentes: ")
+      leia (dependente)
+      
+
+      sala_bruto <- (hora_trab*valor_hora)
+      dependente <- sala_bruto * dependente /10
+      salario <- sala_bruto + dependente
+
+      
+      escreva("Salaraio Bruto: ",sala_bruto, " Numero de dependentes: ", dependente, " Salario Final: ", salario)
+      
+fimalgoritmo

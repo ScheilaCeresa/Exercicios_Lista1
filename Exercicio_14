@@ -1,0 +1,12 @@
+ algoritmo "exer.14"
+var
+   a, b, maior: real
+inicio
+      escreva ("Informe dois valores numericos: ")
+      leia (a, b)
+      
+      maior <- (a + b + ABS (a-b)) /2
+      
+      escreva ("Valor de A: ", a, " Valor de B: ", b," Maior valor entre eles: ", maior)
+      
+fimalgoritmo

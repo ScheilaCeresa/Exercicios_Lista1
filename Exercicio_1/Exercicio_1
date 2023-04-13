@@ -1,0 +1,12 @@
+algoritmo "exer.1"
+var
+   raio, area, comprimento: real
+inicio
+      escreva ("Informe o valor do raio: ")
+      leia (raio)
+      
+      area <- pi * raio^2
+      comprimento <- 2* pi * raio
+      
+      escreva("Raio da circunferencia: ",raio," area: ",area:5:2, " comprimento: ", comprimento:5:2)
+fimalgoritmo

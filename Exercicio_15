@@ -1,0 +1,27 @@
+algoritmo "exer.15"
+var
+   nota100, nota10, nota1, valor_compra, troco, troco_aux, cliente, total_notas: inteiro
+inicio
+      escreva ("Informe o valor da compra: ")
+      leia (valor_compra)
+      escreva("Informe o valor dado pelo cliente: ")
+      leia (cliente)
+      
+      troco <- cliente - valor_compra  // mudando (valor_compra) pela variavel troco muda o resultado
+      troco_aux <- troco
+      nota100 <- troco_aux div 100
+      troco_aux <- troco_aux mod 100
+      nota10 <- troco_aux div 10
+      nota1 <- troco_aux mod 10
+      
+      total_notas <- nota100 + nota10 + nota1
+      
+
+      escreval ("Total de troco: ", troco)
+      escreval ("Total de notas: ", total_notas)
+      escreval ("Notas de 100: ", nota100)
+      escreval ("Notas de 10: ", nota10)
+      escreva ("Notas de 1: ", nota1)
+      
+      
+fimalgoritmo
